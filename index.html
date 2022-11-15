@@ -16,6 +16,7 @@
       flex-grow: 1;
     }
     .background-button {
+      display: flex; 
       background-color:black;
     }
     .button { 
@@ -61,7 +62,10 @@
       <button class="button js-mute-button" hidden>
         <i class="fa fa-volume-up" aria-hidden="true"></i>        
       </button>
-      <button class="button js-fullscreen-button">Fullscreen</button>
+      <div style="flex-grow: 1;"></div>
+      <button class="button js-fullscreen-button">
+        <i class="fa fa-expand" aria-hidden="true"></i>
+      </button>
     </div>   
 
     <div class="line-below">
