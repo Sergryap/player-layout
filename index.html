@@ -65,6 +65,16 @@
       margin-right: 5px;
       border-radius: 2px;
     }
+    .progress-bar .round-slider{
+      height: 8px;
+      width: 8px;
+      background-color: red;
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      display: inline-block;
+      box-shadow: 0 0 2px 1px rgba(0,0,0,0.5); 
+    }
    </style>
 </head>
 
@@ -89,6 +99,7 @@
         <span class="js-current-time"></span>
         <div class="progress-bar js-progress">
           <div class="progress-dinamic-bar js-progress-slider"></div>
+          <div class="round-slider"></div>
         </div>
         <span class="js-duration"></span>      
       </div>
