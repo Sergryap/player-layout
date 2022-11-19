@@ -39,7 +39,8 @@
       height: 33px;
       font-size: 20px;
     }
-    .video-player .line-below {
+    .button-bar .time-bar {
+      flex-grow: 1;
       color: rgb(255, 255, 255);
       background-color: black;
       padding-top: 10px;
@@ -74,19 +75,17 @@
       <button class="control-button js-mute-button" hidden>
         <i class="fa fa-volume-up" aria-hidden="true"></i>        
       </button>
-      <div style="flex-grow: 1;"></div>
+      <div class="time-bar">
+        <span class="js-current-time"></span>
+        —
+        <span class="js-duration"></span>      
+      </div>
       <button class="control-button js-fullscreen-button">
         <i class="fa fa-expand" aria-hidden="true"></i>
       </button>
     </div>   
 
-    <!-- <div class="line-below">
-      <span class="js-current-time"></span>
-      —
-      <span class="js-duration"></span>
-    </div>
-
-    <div class="progress-bar js-progress">
+    <!-- <div class="progress-bar js-progress">
       <div class="progress-dinamic-bar js-progress-slider">Прогресс</div>
     </div> -->
   </div>
