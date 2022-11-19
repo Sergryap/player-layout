@@ -52,12 +52,18 @@
     }
     .video-player .progress-bar{
       flex-grow: 1;
+      display: flex;
+      align-items: center;
       background-color: black;
       color: white;
       padding-left: 4px;
     }
     .progress-bar .progress-dinamic-bar{      
       background-color: red;
+      height: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      border-radius: 2px;
     }
    </style>
 </head>
@@ -82,7 +88,7 @@
       <div class="time-bar">
         <span class="js-current-time"></span>
         <div class="progress-bar js-progress">
-          <div class="progress-dinamic-bar js-progress-slider">Прогресс</div>
+          <div class="progress-dinamic-bar js-progress-slider"></div>
         </div>
         <span class="js-duration"></span>      
       </div>
