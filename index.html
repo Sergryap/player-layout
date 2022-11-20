@@ -65,6 +65,9 @@
       border-radius: 2px;
     }
     .progress-bar .round-slider{
+      transition-property: all;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in;
       height: 8px;
       width: 8px;
       margin-left: -7px;
@@ -77,6 +80,8 @@
       opacity: 0;
     }
     .button-bar:hover .round-slider{
+      transition-property: inherit;
+      transition-timing-function: ease-out;
       opacity: 1;      
     }
    </style>
