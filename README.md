@@ -4,7 +4,7 @@
 
 ![Peek 2022-11-20 10-22](https://user-images.githubusercontent.com/99894266/202887087-803f440a-0b3e-422c-8635-37ec458de86e.gif)
 
-[***Пример работающего плейра***](http://rs1180w5.beget.tech/)
+[***Пример работающего плейера***](http://rs1180w5.beget.tech/)
 
 
 ## Как подключить
